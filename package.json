@@ -1,7 +1,7 @@
 {
   "name": "d3kit-gridmap",
   "version": "0.0.1",
-  "description": "A grid map component based on d3kit and labella.js",
+  "description": "A grid map component based on d3kit",
   "homepage": "https://github.com/kristw/d3kit-gridmap",
   "main": "dist/d3kit-gridmap.min.js",
   "author": "Krist Wongsuphasawat <krist.wongz@gmail.com> (http://kristw.yellowpigz.com)",
