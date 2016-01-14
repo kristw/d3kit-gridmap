@@ -63,7 +63,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  initialHeight: 340,
 	  keyFn: undefined,
 	  row: function(d){return d.row;},
-	  column: function(d){return d.col;},
+	  col: function(d){return d.col;},
 	  text: function(d){return d.key;},
 	  textColor: '#222',
 	  stroke: '#222',
@@ -165,7 +165,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    selection.exit().remove();
 	  }
 
-	  function resizeToFitTiles(){
+	  function resizeToFitMap(){
 	    if(!skeleton.hasData()){
 	      layers.get('tile').selectAll('g').remove();
 	      return;
@@ -184,7 +184,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  return skeleton.mixin({
 	    visualize: visualize,
-	    resizeToFitTiles: resizeToFitTiles
+	    resizeToFitMap: resizeToFitMap
 	  });
 	});
 
