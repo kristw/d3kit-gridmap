@@ -1,0 +1,32 @@
+{
+  "name": "d3kit-gridmap",
+  "version": "0.3.0",
+  "description": "A grid map component based on d3kit and labella.js",
+  "homepage": "https://github.com/kristw/d3kit-gridmap",
+  "main": "dist/d3kit-gridmap.min.js",
+  "author": "Krist Wongsuphasawat <krist.wongz@gmail.com> (http://kristw.yellowpigz.com)",
+  "license": "Apache 2",
+  "keywords": [
+    "d3kit-gridmap",
+    "d3kit"
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-bump": "~0.3.1",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-contrib-copy": "~0.8.0",
+    "grunt-contrib-uglify": "~0.9.1",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-gh-pages": "~0.10.0",
+    "grunt-shell": "~1.1.2",
+    "grunt-webpack": "^1.0.11",
+    "load-grunt-config": "~0.17.1",
+    "time-grunt": "~1.2.1",
+    "uglify-js": "*",
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {}
+}
