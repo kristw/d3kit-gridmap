@@ -6,7 +6,7 @@
   "authors": [
     "Krist Wongsuphasawat <krist.wongz@gmail.com> (http://kristw.yellowpigz.com)"
   ],
-  "license": "Apache 2",
+  "license": "Apache-2.0",
   "keywords": [
     "d3kit-gridmap",
     "d3kit"

@@ -5,10 +5,13 @@
   "homepage": "https://github.com/kristw/d3kit-gridmap",
   "main": "dist/d3kit-gridmap.min.js",
   "author": "Krist Wongsuphasawat <krist.wongz@gmail.com> (http://kristw.yellowpigz.com)",
-  "license": "Apache 2",
+  "license": "Apache-2.0",
   "keywords": [
     "d3kit-gridmap",
     "d3kit"
+  ],
+  "files": [
+    "dist/*.js"
   ],
   "devDependencies": {
     "grunt": "~0.4.5",
@@ -23,10 +26,13 @@
     "grunt-shell": "~1.1.2",
     "grunt-webpack": "^1.0.11",
     "load-grunt-config": "~0.17.1",
+    "pkgfiles": "^2.3.0",
     "time-grunt": "~1.2.1",
     "uglify-js": "*",
     "webpack": "^1.12.11",
     "webpack-dev-server": "^1.14.1"
   },
-  "scripts": {}
+  "scripts": {
+    "prepublish": "pkgfiles"
+  }
 }
