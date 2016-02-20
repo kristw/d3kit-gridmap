@@ -2,7 +2,7 @@
 
 ### v1.0.0
 
-Instead of exporting `d3Kit` and using the constructor via `d3Kit.Gridmap, this library now return the chart constructor itself.
+Instead of exporting `d3Kit` and using the constructor via `d3Kit.Gridmap`, this library now return the chart constructor itself.
 
 #### Breaking changes
 

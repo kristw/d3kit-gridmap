@@ -12,6 +12,8 @@ A tile grid map component built on top of d3Kit
   </a>
 </p>
 
+Note: If you are upgrading from v0.x.x to v1.x.x, this library now return the constructor `d3KitGridmap` instead of `d3Kit`. Please see the [change logs](CHANGELOG.md) for more detail.
+
 ### Install
 
 ```
