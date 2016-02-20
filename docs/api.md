@@ -2,9 +2,9 @@
 [Demo](http://kristw.github.io/d3kit-timeline) |
 **API Reference**
 
-## d3Kit.Gridmap
+## d3KitGridmap
 
-<a name="constructor" href="#constructor">#</a> var chart = new **d3Kit.Gridmap**([options:Object]);
+<a name="constructor" href="#constructor">#</a> var chart = new **d3KitGridmap**([options:Object]);
 
 There are many options that you can customize. These are often set when creating the chart but also can be changed later via ```chart.options(options)```
 

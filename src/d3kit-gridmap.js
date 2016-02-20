@@ -27,7 +27,7 @@ var CUSTOM_EVENTS = [
   'tileMouseout'
 ];
 
-d3Kit.Gridmap = d3Kit.factory.createChart(DEFAULT_OPTIONS, CUSTOM_EVENTS,
+module.exports = d3Kit.factory.createChart(DEFAULT_OPTIONS, CUSTOM_EVENTS,
 function constructor(skeleton){
   // alias
   var options = skeleton.options();
@@ -131,5 +131,3 @@ function constructor(skeleton){
     resizeToFitMap: resizeToFitMap
   });
 });
-
-module.exports = d3Kit;

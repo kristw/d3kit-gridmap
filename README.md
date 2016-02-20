@@ -29,7 +29,7 @@ bower install d3kit-gridmap --save
 For example, to draw a grid map of the US, create a grid map component and pass [gridmap-layout-usa](https://github.com/kristw/gridmap-layout-usa) as the layout. View source of this [demo](https://kristw.github.io/d3kit-gridmap/) for example.
 
 ```javascript
-var chart = new d3Kit.Gridmap('#usa', {
+var chart = new d3KitGridmap('#usa', {
   col: function(d){return d.x;},
   row: function(d){return d.y;},
   fill: function(d){return color(d.name.length);}
@@ -65,7 +65,7 @@ Or use these available layouts:
 
 ##### Choice 1. Global
 
-Adding this library via ```<script>``` tag is the simplest way. By doing this, ```d3Kit.Gridmap``` is available in the global scope.
+Adding this library via ```<script>``` tag is the simplest way. By doing this, ```d3KitGridmap``` is available in the global scope.
 
 ```html
 <script src="bower_components/d3/d3.min.js"></script>
@@ -85,8 +85,8 @@ require.config({
     'd3kit-gridmap': 'path/to/d3kit-gridmap'
   }
 });
-require(['d3kit-gridmap'], function(d3Kit) {
-  // do something with d3Kit.Gridmap
+require(['d3kit-gridmap'], function(d3KitGridmap) {
+  // do something with d3KitGridmap
 });
 ```
 
@@ -97,11 +97,9 @@ This module will be available as ```d3Kit.Gridmap```.
 This library also supports usage in commonjs style.
 
 ```javascript
-var d3Kit = require('d3kit-gridmap');
-// do something with d3Kit.Gridmap
+var d3KitGridmap = require('d3kit-gridmap');
+// do something with d3KitGridmap
 ```
-
-This module will be available as ```d3Kit.Gridmap```.
 
 ### Author
 

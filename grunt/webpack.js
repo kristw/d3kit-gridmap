@@ -4,7 +4,7 @@ module.exports = {
     output: {
       filename: 'd3kit-gridmap.js',
       path: '<%= yeoman.dist %>',
-      library: 'd3Kit',
+      library: 'd3KitGridmap',
       libraryTarget: 'umd',
       umdNamedDefine: false
     },

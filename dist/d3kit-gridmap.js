@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define(["d3", "d3Kit"], factory);
 	else if(typeof exports === 'object')
-		exports["d3Kit"] = factory(require("d3"), require("d3Kit"));
+		exports["d3KitGridmap"] = factory(require("d3"), require("d3Kit"));
 	else
-		root["d3Kit"] = factory(root["d3"], root["d3Kit"]);
+		root["d3KitGridmap"] = factory(root["d3"], root["d3Kit"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_1__, __WEBPACK_EXTERNAL_MODULE_2__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -83,7 +83,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  'tileMouseout'
 	];
 
-	d3Kit.Gridmap = d3Kit.factory.createChart(DEFAULT_OPTIONS, CUSTOM_EVENTS,
+	module.exports = d3Kit.factory.createChart(DEFAULT_OPTIONS, CUSTOM_EVENTS,
 	function constructor(skeleton){
 	  // alias
 	  var options = skeleton.options();
@@ -187,8 +187,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	    resizeToFitMap: resizeToFitMap
 	  });
 	});
-
-	module.exports = d3Kit;
 
 /***/ },
 /* 1 */
