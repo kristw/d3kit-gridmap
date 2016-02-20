@@ -30,7 +30,7 @@
     "package.json"
   ],
   "dependencies": {
-    "d3kit": "~1.0.9"
+    "d3kit": "~1.0.10"
   },
   "devDependencies": {
     "gridmap-layout-thailand": "~0.0.2",

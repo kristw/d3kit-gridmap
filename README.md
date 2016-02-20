@@ -2,7 +2,7 @@
 [Demo](https://kristw.github.io/d3kit-gridmap/) |
 [API Reference](https://github.com/kristw/d3kit-gridmap/blob/master/docs/api.md)
 
-# d3Kit-gridmap
+# d3Kit-gridmap [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
 A tile grid map component built on top of d3Kit
 
@@ -109,3 +109,8 @@ Krist Wongsuphasawat / [@kristw](https://twitter.com/kristw)
 
 Copyright 2016 Krist Wongsuphasawat.
 Licensed under the [Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+[npm-image]: https://badge.fury.io/js/d3kit-gridmap.svg
+[npm-url]: https://npmjs.org/package/d3kit-gridmap
+[daviddm-image]: https://david-dm.org/kristw/d3kit-gridmap.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/kristw/d3kit-gridmap

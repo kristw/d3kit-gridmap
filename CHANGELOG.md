@@ -1,5 +1,9 @@
 # d3Kit-gridmap
 
+### v1.0.2
+
+Update dependency
+
 ### v1.0.1
 
 Update documentation

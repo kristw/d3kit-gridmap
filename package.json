@@ -13,6 +13,9 @@
   "files": [
     "dist/*.js"
   ],
+  "dependencies": {
+    "d3kit": "~1.0.10"
+  },
   "devDependencies": {
     "grunt": "~0.4.5",
     "grunt-bump": "~0.3.1",
