@@ -37,14 +37,14 @@
         .range(['#b2ddf0', '#92bcd8', '#769cbf', '#5d7da7', '#46608f', '#334577', '#232d5f']);
 
 
-      var map = new d3Kit.Gridmap('#usa', {
+      var map = new d3KitGridmap('#usa', {
         col: function(d){return d.x;},
         row: function(d){return d.y;},
         fill: function(d){return color(d.name.length);}
       })
         .data(gridmapLayoutUsa);
 
-      var map = new d3Kit.Gridmap('#thailand', {
+      var map = new d3KitGridmap('#thailand', {
         tileWidth: 30,
         tileHeight: 30,
         col: function(d){return d.x;},
