@@ -1,5 +1,9 @@
 # d3Kit-gridmap
 
+### v1.0.3
+
+In `.resizeToFitMap()`, return skeleton when no data is present instead of return nothing to allow chaining.
+
 ### v1.0.2
 
 Update dependency
