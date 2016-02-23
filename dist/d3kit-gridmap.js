@@ -168,7 +168,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  function resizeToFitMap(){
 	    if(!skeleton.hasData()){
 	      layers.get('tile').selectAll('g').remove();
-	      return;
+	      return skeleton;
 	    }
 
 	    var data = skeleton.data();
