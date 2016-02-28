@@ -36,6 +36,9 @@
     "webpack-dev-server": "^1.14.1"
   },
   "scripts": {
-    "prepublish": "pkgfiles"
+    "preversion": "npm test",
+    "version": "grunt build && git add -A && git commit -m \"[auto] prepare new version\" ",
+    "postversion": "pkgfiles",
+    "prepublish": "git push ; git push --tags"
   }
 }
