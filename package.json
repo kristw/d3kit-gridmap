@@ -1,6 +1,6 @@
 {
   "name": "d3kit-gridmap",
-  "version": "1.0.4",
+  "version": "1.0.3",
   "description": "A grid map component based on d3kit",
   "homepage": "https://github.com/kristw/d3kit-gridmap",
   "main": "dist/d3kit-gridmap.min.js",
@@ -37,7 +37,7 @@
   },
   "scripts": {
     "preversion": "npm test",
-    "version": "grunt build && git add -A && git commit -m \"[auto] prepare new version\" ",
+    "version": "grunt build && git add -A dist",
     "postversion": "pkgfiles",
     "prepublish": "git push ; git push --tags"
   }
