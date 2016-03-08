@@ -6,7 +6,7 @@ var DEFAULT_OPTIONS = {
   initialWidth: 500,
   initialHeight: 340,
   keyFn: undefined,
-  durationFn: () => 250,
+  durationFn: function() {return 250;},
   row: function(d){return d.row;},
   col: function(d){return d.col;},
   text: function(d){return d.key;},
