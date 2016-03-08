@@ -1,5 +1,9 @@
 # d3Kit-gridmap
 
+### v1.1.0
+
+Add option `transitionDuration`
+
 ### v1.0.3
 
 In `.resizeToFitMap()`, return skeleton when no data is present instead of return nothing to allow chaining.

@@ -27,6 +27,7 @@ There are many options that you can customize. These are often set when creating
 | tileWidth | 40 | Tile width. It can be a Number or Function ```function(d,i){return ...;}``` |
 | tileHeight | 40 | Tile height. It can be a Number or Function ```function(d,i){return ...;}``` |
 | textYOffset | 0.35em | vertical offset for text |
+| transitionDuration | 250 | duration of the transition |
 
 ### Functions
 
