@@ -6,7 +6,7 @@ var DEFAULT_OPTIONS = {
   initialWidth: 500,
   initialHeight: 340,
   keyFn: undefined,
-  durationFn: function() {return 250;},
+  transitionDurationFn: function() {return 250;},
   row: function(d){return d.row;},
   col: function(d){return d.col;},
   text: function(d){return d.key;},
@@ -86,7 +86,7 @@ function constructor(skeleton){
       .style('text-anchor', options.textAnchor)
       .text(options.text);
 
-    var sTrans = selection.transition().duration(options.durationFn)
+    var sTrans = selection.transition().duration(options.transitionDurationFn)
       .attr('transform', function(d){
         return 'translate('+(options.col(d)*options.tileWidth)+','+(options.row(d)*options.tileHeight)+')';}
       );
